@@ -21,7 +21,7 @@ import "./index.css";
 
 function App() {
   return (
-    <div className="card">
+    <div className="card center">
       <Avatar />
       <div className="data">
         <Intro />
@@ -35,7 +35,7 @@ function App() {
 }
 
 function Avatar() {
-  return <img src="rohit.jpeg" alt="Rohit Kumar"></img>;
+  return <img src="rohit.jpeg" alt="Rohit Kumar" className="center"></img>;
 }
 
 function Intro() {
